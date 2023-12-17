@@ -1,0 +1,24 @@
+{
+  "name": "cyrpress-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+
+    "cypress:run-headed": "cypress run --headed",
+    "cypress:run-chrome": "cypress run --browser chrome"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
+    "@cypress/browserify-preprocessor": "latest"
+  }
+}
